@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" fx:id="anc" prefHeight="560.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="webbrowser.FXMLDocumentController">
+   <children>
+      <TextField fx:id="txt" layoutX="175.0" layoutY="14.0" prefHeight="26.0" prefWidth="507.0" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="102.0" />
+      <Button fx:id="btn" layoutX="693.0" layoutY="14.0" mnemonicParsing="false" onAction="#handle" prefHeight="25.0" prefWidth="68.0" text="Buscar" AnchorPane.rightAnchor="23.0" />
+      <WebView fx:id="webView" layoutX="6.0" layoutY="50.0" prefHeight="509.0" prefWidth="784.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="&lt;" />
+      <Button fx:id="forwardBtn" layoutX="43.0" layoutY="14.0" mnemonicParsing="false" text="&gt;" />
+      <Button fx:id="btnReload" layoutX="87.0" layoutY="14.0" mnemonicParsing="false" text="Atualizar" />
+   </children>
+</AnchorPane>
